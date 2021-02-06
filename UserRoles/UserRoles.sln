@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRoles.Data", "UserRoles.Data\UserRoles.Data.csproj", "{72B982B7-0EC8-41A9-950B-911F2ED2C79C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRoles.Repository", "UserRoles.Repository\UserRoles.Repository.csproj", "{812212C4-CCB8-469F-954E-03FE0413CACF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{72B982B7-0EC8-41A9-950B-911F2ED2C79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72B982B7-0EC8-41A9-950B-911F2ED2C79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72B982B7-0EC8-41A9-950B-911F2ED2C79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812212C4-CCB8-469F-954E-03FE0413CACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812212C4-CCB8-469F-954E-03FE0413CACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812212C4-CCB8-469F-954E-03FE0413CACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812212C4-CCB8-469F-954E-03FE0413CACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
