@@ -1,0 +1,12 @@
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\bin\Debug\netcoreapp3.1\UserRoles.Data.deps.json
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\bin\Debug\netcoreapp3.1\UserRoles.Data.dll
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\bin\Debug\netcoreapp3.1\UserRoles.Data.pdb
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\obj\Debug\netcoreapp3.1\UserRoles.Data.csprojAssemblyReference.cache
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\obj\Debug\netcoreapp3.1\UserRoles.Data.AssemblyInfoInputs.cache
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\obj\Debug\netcoreapp3.1\UserRoles.Data.AssemblyInfo.cs
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\obj\Debug\netcoreapp3.1\UserRoles.Data.csproj.CoreCompileInputs.cache
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\obj\Debug\netcoreapp3.1\UserRoles.Data.dll
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\obj\Debug\netcoreapp3.1\UserRoles.Data.pdb
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\bin\Debug\netcoreapp3.1\UserRoles.Data.runtimeconfig.json
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\bin\Debug\netcoreapp3.1\UserRoles.Data.runtimeconfig.dev.json
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Data\obj\Debug\netcoreapp3.1\UserRoles.Data.genruntimeconfig.cache
