@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRoles.Repository", "Use
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRoles.Models", "UserRoles.Models\UserRoles.Models.csproj", "{01631715-33AB-4E10-BB5B-357B96FFF579}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRoles.Core", "UserRoles.Core\UserRoles.Core.csproj", "{4AE4EC0F-D14B-4513-9A64-DDFE8566F6EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{01631715-33AB-4E10-BB5B-357B96FFF579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01631715-33AB-4E10-BB5B-357B96FFF579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01631715-33AB-4E10-BB5B-357B96FFF579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE4EC0F-D14B-4513-9A64-DDFE8566F6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE4EC0F-D14B-4513-9A64-DDFE8566F6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE4EC0F-D14B-4513-9A64-DDFE8566F6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE4EC0F-D14B-4513-9A64-DDFE8566F6EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
