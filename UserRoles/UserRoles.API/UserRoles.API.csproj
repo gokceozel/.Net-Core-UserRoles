@@ -4,5 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UserRoles.Core\UserRoles.Core.csproj" />
+    <ProjectReference Include="..\UserRoles.Data\UserRoles.Data.csproj" />
+    <ProjectReference Include="..\UserRoles.Models\UserRoles.Models.csproj" />
+    <ProjectReference Include="..\UserRoles.Repository\UserRoles.Repository.csproj" />
+    <ProjectReference Include="..\UserRoles.Services\UserRoles.Services.csproj" />
+  </ItemGroup>
+
 
 </Project>
