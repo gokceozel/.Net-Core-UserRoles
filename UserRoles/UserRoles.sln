@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRoles.Data", "UserRoles
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRoles.Repository", "UserRoles.Repository\UserRoles.Repository.csproj", "{812212C4-CCB8-469F-954E-03FE0413CACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRoles.Models", "UserRoles.Models\UserRoles.Models.csproj", "{01631715-33AB-4E10-BB5B-357B96FFF579}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{812212C4-CCB8-469F-954E-03FE0413CACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{812212C4-CCB8-469F-954E-03FE0413CACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{812212C4-CCB8-469F-954E-03FE0413CACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01631715-33AB-4E10-BB5B-357B96FFF579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01631715-33AB-4E10-BB5B-357B96FFF579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01631715-33AB-4E10-BB5B-357B96FFF579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01631715-33AB-4E10-BB5B-357B96FFF579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
