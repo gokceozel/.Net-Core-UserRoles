@@ -9,7 +9,11 @@ namespace UserRoles.Services.Roles
 {
     public class RoleService : IRoleService
     {
+        //// userRolesRepository =User’a ait rollerin, tutulduğu tablodur.UserRole tablosuna karşılık gelir.
         private readonly IRepository<UserRoles.Data.Entities.UserRoles> _userRolesRepository;
+
+        // rolesRepositor =Sayfalara göre guruplanmış, tüm rollerin listesinin tutulduğu tablodur. Roles tablosuna karşılık gelir.
+        //get customer=2  get customer liste= 4
         private readonly IRepository<UserRoles.Data.Entities.Roles> _rolesRepository;
         public RoleService(IRepository<UserRoles.Data.Entities.UserRoles> userRolesRepository, IRepository<UserRoles.Data.Entities.Roles> rolesRepository)
         {
@@ -23,10 +27,10 @@ namespace UserRoles.Services.Roles
             RoleModel model = new RoleModel();
             var userRole = _userRolesRepository.Table
                 .Include(r => r.RoleGroup)
-                .FirstOrDefault(ur => ur.UserId == userId && ur.RoleGroupId == roleGroupID);
+                .FirstOrDefault(ur => ur.UserId == userId && ur.RoleGroupId == roleGroupID); //bana 7 sayısını dönecek
             if (userRole != null)
             {
-                if (roleID == (userRole.Roles & roleID))
+                if (roleID == (userRole.Roles & roleID)) // 7'in içinde 4 var mı?
                 {
                     var role = _rolesRepository.Table.Where(r => r.RoleId == roleID).FirstOrDefault();
                     if (role != null)
@@ -39,6 +43,9 @@ namespace UserRoles.Services.Roles
             return response;
         }
 
+        //7nin içindeki tüm rolleri getir
+        //customer ıdsi iki olanı tüm rolleri
+        //userin girebileceği tüm metotların listesini döner
         public IServiceResponse<RoleModel> GetRoleListByGroupId(int userId, int roleGroupID)
         {
             var response = new ServiceResponse<RoleModel>();
