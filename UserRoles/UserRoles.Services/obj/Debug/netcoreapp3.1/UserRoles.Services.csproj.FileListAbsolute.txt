@@ -1,0 +1,7 @@
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Services\bin\Debug\netcoreapp3.1\UserRoles.Data.dll
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Services\bin\Debug\netcoreapp3.1\UserRoles.Models.dll
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Services\bin\Debug\netcoreapp3.1\UserRoles.Repository.dll
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Services\bin\Debug\netcoreapp3.1\UserRoles.Data.pdb
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Services\obj\Debug\netcoreapp3.1\UserRoles.Services.csprojAssemblyReference.cache
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Services\obj\Debug\netcoreapp3.1\UserRoles.Services.AssemblyInfoInputs.cache
+C:\Code\.Net-Core-UserRoles\UserRoles\UserRoles.Services\obj\Debug\netcoreapp3.1\UserRoles.Services.AssemblyInfo.cs
